@@ -1,8 +1,4 @@
-Skip to content
-Sign up
-justxdv
-/
-Top-10-Headlines---Placement-Contest---f
+
 import React, { useState, useEffect } from 'react'
 import '../styles/App.css';
 
@@ -10,7 +6,7 @@ const App = () => {
   const [category, setCategory] = useState("general");
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
- const API_KEY="601d17aebb666d198207790c20dc4b89";
+ const API_KEY="18d7e4d924ce2030628cabbc8d2c3628";
 
  const changeFunction=(e)=>
  {
